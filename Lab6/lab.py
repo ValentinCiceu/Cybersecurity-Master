@@ -60,7 +60,7 @@ def main():
 
     print(f"File is 16 bytes? {is_16_byte(enc_body_data)}")
     
-    # Taking advantage of ECB weekness
+    # Taking advantage of ECB weakness
     blocks = create_16_byte_blocks(enc_body_data)
     
     block_counts = Counter(blocks)
