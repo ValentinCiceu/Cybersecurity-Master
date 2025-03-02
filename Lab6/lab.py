@@ -1,8 +1,6 @@
-from Crypto.Cipher import AES
 from PIL import Image
 from math import ceil, sqrt
 from collections import Counter
-import os
 
 
 BLOCK_SIZE = 16
