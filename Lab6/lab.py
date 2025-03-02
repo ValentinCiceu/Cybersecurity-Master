@@ -17,7 +17,7 @@ def read_header(file):
 
 def read_body(file):
     with open(file, "rb") as f:
-        # Skip header of 54 bytes to only have the image data
+        # Skip header of 54 bytes to only have image data
         return f.read()[54:]
     
 
@@ -52,7 +52,7 @@ def pixel_2_image(pixel_values):
 def main():
     src_file = 'aes.bmp.enc'
     
-    # Male sense of header
+    # Make sense of header
     enc_header_data = read_header(src_file)
     print(enc_header_data)
     
