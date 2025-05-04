@@ -45,8 +45,7 @@ state = [
 
 
 def sub_bytes(s, sbox=s_box):
-    # ???
-    pass
+    ???
 
 
 print(sub_bytes(state, sbox=inv_s_box))
